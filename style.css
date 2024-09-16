@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --DARK-GREEN: rgba(9, 38, 9, 0.871);
+    --ORANGE: #E28525;
+    --LIGHT-BLUE: #016972;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 480px;
+    background-color: white;
+}
+
+.container{
+    color: white;
+    font-family: arial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sedan-box{
+    padding: 30px;
+   background-color: var(--ORANGE);
+    width: 220px;
+    height: 340px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.suvs-box{
+    padding: 30px;
+    background-color: var(--LIGHT-BLUE);
+    width: 220px;
+    height: 340px;
+}
+
+.luxury-box{
+    padding: 30px;
+    background-color: var(--DARK-GREEN);
+    width: 220px;
+    height: 340px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+h3{
+    font-family: Helvetica;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p{
+    line-height: 1.5;
+    font-size: 12px;
+    margin-bottom: 45px;
+}
+
+.sedan-box button{
+    color: var(--ORANGE);
+    width: 120px;
+    background-color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.suvs-box button{
+    color: var(--LIGHT-BLUE);
+    width: 120px;
+    background-color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+
+}
+
+.luxury-box button{
+    color: var(--DARK-GREEN);
+    width: 120px;
+    background-color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+
+}
